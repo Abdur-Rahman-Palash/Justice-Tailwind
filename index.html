@@ -210,69 +210,76 @@
                 </div>
               </div>
         </section>
-        
-        <section >
-           <div class="Contact-With-Us-text">
-                <h4>Contact With Us</h4>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have  <br>
-                    suffered alteration in some form, by injected humour</p>
-            </div>
-            <div class="address-and-form-content">
-                    <div class="Contact-With-Us-address">
-                        <div class="address">
-                            <img src="./images/location.png" alt="">
-                            <h5> Address</h5>
-                            <p> A108 Adam Street <br>
-                                New York, NY 535022</p>
-                        </div>
-                        <div class="call">
-                            <img src="./images/call.png" alt="">
-                            <h5>Call Us</h5>
-                            <p>+88 01750 00 00 00 <br>
-                                +88 01750 00 00 00</p>
-                        </div>
-                            <div class="email">
-                                <img src="./images/email.png" alt="">
-                                <h5>Email Us</h5>
-                                <p> info@gmail.com <br>
+                       <section class="mt-16">
+                            <div class="text-center">
+                              <h1 class="eb-garamond-font text-5xl font-bold">Contact With Us</h1>
+                              <p>There are many variations of passages of Lorem Ipsum available, but the majority have <br> suffered alteration in some form, by injected humour.</p>
+                            </div>
+                            <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 mt-10">
+                              <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 bg-base-200 rounded-lg">
+                                <div class="border-r-4 border-b-4 text-center py-16">
+                                  <i class="fa-solid fa-location-dot  text-[#B68C5A] text-xl"></i>
+                                  <h5 class="text-xl font-bold">Address</h5>
+                                  <p>A108 Adam Street, <br>
+                                    New York, NY 535022</p>
+                                </div>
+                                <div class="border-b-4 text-center py-16">
+                                  <i class="fa-solid fa-phone  text-[#B68C5A] text-xl"></i>
+                                  <h5 class="text-xl font-bold">Phone</h5>
+                                  <p>+88 01750 00 00 00 <br>
+                                    +88 01750 00 00 00</p>
+                                </div>
+                                <div class="border-r-4 px-4 text-center py-16">
+                                  <i class="fa-regular fa-envelope  text-[#B68C5A] text-xl"></i>
+                                  <h5 class="text-xl font-bold">Email</h5>
+                                  <p>info@gmail.com <br>
                                     info@gmail.com</p>
-                            </div>
-                            <div class="working-hours">
-                                <img src="./images/address.png" alt="">
-                                <h5>Working Hours</h5>
-                                <p> Mon-Fri: 9AM to 5PM <br>
+                                </div>
+                                <div class="px-4 text-center py-16">
+                                  <i class="fa-regular fa-clock text-[#B68C5A] text-xl "></i>
+                                  <h5 class="text-xl font-bold">Working Hours</h5>
+                                  <p>Mon-Fri: 9AM to 5PM <br>
                                     Sunday: 9AM to 1 PM</p>
-                            </div>
-                </div>
-                        <div class="Contact-With-Us-form">
-                            <input type="text" name="" id="" placeholder="Your name">
-                            <input type="email" name="" id="" placeholder="Your Email">
-                            <input type="text" name="" id="" placeholder="Subject">
-                            <textarea name="" id="" placeholder="Your Message"></textarea>
-                            <button>Send Message</button>
+                                </div>
+                              </div>
+                              <div class="space-y-6">
+                                <div>
+                                  <input class="bg-base-200 outline-none w-[500px] px-4 py-4 rounded-xl" type="text" placeholder="Your Name">
+                                </div>
+                                <div>
+                                  <input class="bg-base-200 outline-none w-[500px] px-4 py-4 rounded-xl" type="email" placeholder="Your Email" required>
+                                </div>
+                                <div>
+                                  <input class="bg-base-200 outline-none w-[500px] px-4 py-4 rounded-xl" type="text" placeholder="Subject">
+                                </div>
+                                <div>
+                                  <textarea class="bg-base-200 outline-none w-[500px] px-4 py-4 rounded-xl" name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                                </div>
+                                <button class="btn bg-[#B68C5A] text-white w-[500px]">Send Message</button>
+                              </div>
                             </div>
                         </section>
     </main>
-    <footer class="footer">
-<div class="footer-content">
-    <div class="footer-content-text">
+    <footer class="mt-16 bg-black text-white px-10 py-10">
+<div class="grid grid-cols-1 lg:grid-cols-4 gap-4 w-11/12 mx-auto">
+    <div class="">
         <img src="./images/logo.png" alt="">
-        <p> There are many variations of <br> 
+        <p class="text-gray-400 text-md"> There are many variations of <br> 
             passages of Lorem Ipsum <br>
             available, but the majority have <br> 
             suffered alteration in some  <br>
             form, by injected humour.</p>
     </div>
-    <div class="footer-content-link">
-        <h4>Useful Links</h4>
+    <div class="space-y-4">
+        <h4 class="text-xl">Useful Links</h4>
         <p>Home</p>
             <p>Services</p>
             <p>Cases</p>
             <p>Blog</p>
             <p>Contact Us</p>
     </div>
-    <div class="footer-content-contact">
-        <h4>Contact Us</h4>
+    <div class="space-y-4">
+        <h4 class="text-xl">Contact Us</h4>
         <p> 555 4th 5t NW, Washington <br>
             DC 20530, United States</p>
         <p> +88 01750 000 000 <br>
@@ -280,13 +287,15 @@
         <p> info@gmail.com <br>
             info@gmail.com</p>
     </div>
-    <div class="footer-content-subscribe">
-        <h4>Subscribe</h4>
+    <div class="space-y-4">
+        <h4 class="text-xl">Subscribe</h4>
         <p>Subscribe for our latest & <br>
             Articles. We Won’t Give You  <br>
             Spam Mails</p>
-        <input type="text" placeholder="Email address">
-        <button class="btn">Submit</button>
+            <div class="relative">
+              <input class="px-3 py-3 rounded-xl" type="email" name="" id="" placeholder="Email Address">
+              <i class="fa-solid fa-paper-plane btn bg-[#B68C5A] text-white absolute lg:right-1"></i>
+            </div>
     </div>
 </div>
     </footer>
